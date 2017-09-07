@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.buguina.buguinaquiz1.ThirdActivity">
+
+    <Button
+        android:id="@+id/ComSci"
+        android:layout_width="127dp"
+        android:layout_height="35dp"
+        android:text="CS Program"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="353dp"
+        android:onClick="ComSci"/>/>
+
+    <Button
+        android:id="@+id/InfoSys"
+        android:layout_width="127dp"
+        android:layout_height="35dp"
+        android:text="IS Program"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="353dp"
+        android:onClick="InfoSys"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(4 years)"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="324dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="375dp"
+        android:layout_height="54dp"
+        android:text="Level I accredited by the Philippine Accrediting Association of Schools, Colleges, and Universities"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="366dp"
+        android:layout_height="73dp"
+        android:text="Under this program, the students are trained to be well versed in the practical and technical know-how of installing/setting-up of computers and computer networks. Special skills taught include troubleshooting and repairing of hardware components."
+        android:textColor="@android:color/background_dark"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="242dp" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="74dp"
+        android:layout_height="35dp"
+        android:text="HOME"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="353dp" />
+</android.support.constraint.ConstraintLayout>

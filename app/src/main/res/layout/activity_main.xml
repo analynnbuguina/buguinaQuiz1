@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.buguina.buguinaquiz1.MainActivity">
+
+
+    <Button
+        android:id="@+id/InfoTech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BS Information Technology"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="InfoTech"/>
+
+    <Button
+        android:id="@+id/ComSci"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/InfoSys"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="77dp"
+        android:text="BS Computer Science"
+        android:onClick="ComSci"/>/>
+
+    <Button
+        android:id="@+id/InfoSys"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/InfoTech"
+        android:layout_alignStart="@+id/InfoTech"
+        android:layout_below="@+id/InfoTech"
+        android:layout_marginTop="22dp"
+        android:text="BS Information Systems"
+        android:layout_alignRight="@+id/InfoTech"
+        android:layout_alignEnd="@+id/InfoTech"
+        android:onClick="InfoSys"/>/>
+
+</RelativeLayout>
